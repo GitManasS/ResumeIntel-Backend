@@ -1,0 +1,409 @@
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2026-05-22 19:08:19"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-22 19:15:49"}
+{"level":"info","message":"Resume queue worker started","timestamp":"2026-05-22 19:15:49"}
+{"level":"info","message":"Email queue worker started","timestamp":"2026-05-22 19:15:49"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-22 19:15:49"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-22 19:15:49"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:49"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:49"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:49"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:49"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:50"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:50"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:50"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:51"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:51"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:52"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:52"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:53"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:53"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:54"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:55"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:55"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:56"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:57"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:58"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:15:59"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:00"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:01"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:02"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:03"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:05"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:06"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:07"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:09"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:10"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:12"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:13"}
+{"level":"error","message":"Redis error: ","timestamp":"2026-05-22 19:16:15"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-22 19:18:41"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-22 19:18:41"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-22 19:18:41"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-22 19:18:41"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-22 19:22:25"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-22 19:22:25"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-22 19:23:28"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-22 19:23:53"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-22 19:28:44"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-22 19:28:44"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-22 19:28:44"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-22 19:28:44"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-22 19:29:37"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-22 19:29:38"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-22 19:29:38"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-22 19:29:38"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-22 19:29:58"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-22 19:29:58"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-22 19:29:58"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-22 19:29:58"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-22 19:30:43"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-22 19:30:43"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-22 19:30:43"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-22 19:30:43"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 15:34:30"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 15:34:30"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 15:34:30"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 15:34:30"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 15:40:56"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 15:40:56"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 15:40:56"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 15:40:56"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 15:41:57"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 15:41:57"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 15:41:57"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 15:41:57"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 15:53:15"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:26:37"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:26:37"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 16:26:37"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:26:37"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:27:20"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:27:20"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 16:27:20"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:27:20"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:27:31"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:27:31"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 16:27:31"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:27:31"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:27:36"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:27:36"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 16:27:36"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:27:36"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:27:48"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:27:48"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 16:27:48"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:27:48"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:28:03"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:28:03"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 16:28:03"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:28:03"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:28:10"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:28:10"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 16:28:10"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:28:10"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:28:19"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:28:19"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 16:28:19"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:28:19"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:28:31"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:28:31"}
+{"level":"info","message":"Server running on port 5000 [development]","timestamp":"2026-05-23 16:28:31"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:28:31"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:33:01"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:33:01"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 16:33:01"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 16:33:01"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:33:01"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 16:33:01"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:36:09"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:36:09"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 16:36:10"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 16:36:10"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:36:10"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 16:36:10"}
+{"level":"debug","message":"Socket disconnected: 6a117b3cc4cf5886d02c49e7","timestamp":"2026-05-23 16:37:41"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:40:19"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:40:19"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 16:40:19"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 16:40:19"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:40:19"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 16:40:19"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:41:04"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:41:04"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 16:41:04"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 16:41:04"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:41:04"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 16:41:04"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:41:15"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:41:15"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 16:41:15"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 16:41:15"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:41:15"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 16:41:15"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 16:44:46"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 16:44:46"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 16:44:46"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 16:44:46"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 16:44:46"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 16:44:46"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 16:46:04"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 16:50:09"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 16:50:09"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:11:30"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:11:30"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:11:30"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:11:30"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:11:30"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:11:30"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:12:47"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:12:48"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:12:48"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:12:48"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:12:48"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:12:48"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 17:12:51"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 17:12:52"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 17:13:27"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 17:14:00"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55da","timestamp":"2026-05-23 17:14:37"}
+{"level":"debug","message":"Socket disconnected: 6a118ba0edbc49b4e72d55dc","timestamp":"2026-05-23 17:14:53"}
+{"level":"debug","message":"Socket disconnected: 6a118ba1edbc49b4e72d55de","timestamp":"2026-05-23 17:15:46"}
+{"level":"debug","message":"Socket disconnected: 6a118ba3edbc49b4e72d55e4","timestamp":"2026-05-23 17:16:04"}
+{"level":"debug","message":"Socket disconnected: 6a118ba2edbc49b4e72d55e2","timestamp":"2026-05-23 17:18:26"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 17:19:10"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:35:44"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:35:44"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:35:44"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:35:44"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:35:44"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:35:44"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:36:26"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:36:26"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:36:26"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:36:26"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:36:26"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:36:26"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:36:43"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:36:43"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:36:43"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:36:43"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:36:43"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:36:43"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:36:59"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:36:59"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:36:59"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:36:59"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:36:59"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:36:59"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 17:37:44"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 17:37:44"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 17:37:51"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 17:37:51"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 17:37:58"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 17:38:09"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 17:40:33"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:41:06"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:41:06"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:41:06"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:41:06"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:41:06"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:41:06"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:42:34"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:42:34"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:42:34"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:42:34"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:42:34"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:42:34"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 17:43:16"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:44:44"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:44:44"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:44:44"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:44:44"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:44:44"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:44:44"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 17:46:41"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 17:46:41"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 17:46:41"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 17:46:41"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 17:46:41"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 17:46:41"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 17:46:51"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 17:47:35"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55da","timestamp":"2026-05-23 17:47:57"}
+{"level":"debug","message":"Socket disconnected: 6a118ba0edbc49b4e72d55dc","timestamp":"2026-05-23 17:48:13"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55da","timestamp":"2026-05-23 17:48:30"}
+{"level":"debug","message":"Socket disconnected: 6a118ba1edbc49b4e72d55de","timestamp":"2026-05-23 17:49:08"}
+{"level":"debug","message":"Socket disconnected: 6a118ba2edbc49b4e72d55e2","timestamp":"2026-05-23 17:50:10"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 18:29:36"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 18:29:36"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 18:29:36"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 18:29:36"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 18:29:36"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 18:29:36"}
+{"level":"debug","message":"Socket disconnected: 6a118ba2edbc49b4e72d55e2","timestamp":"2026-05-23 18:42:15"}
+{"level":"debug","message":"Socket disconnected: 6a118ba2edbc49b4e72d55e2","timestamp":"2026-05-23 18:42:15"}
+{"level":"debug","message":"Socket disconnected: 6a118ba2edbc49b4e72d55e2","timestamp":"2026-05-23 18:44:02"}
+{"level":"debug","message":"Socket disconnected: 6a118ba2edbc49b4e72d55e2","timestamp":"2026-05-23 18:44:12"}
+{"level":"debug","message":"Socket disconnected: 6a118ba2edbc49b4e72d55e2","timestamp":"2026-05-23 18:44:14"}
+{"level":"debug","message":"Socket disconnected: 6a118ba2edbc49b4e72d55e2","timestamp":"2026-05-23 18:44:18"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 18:45:49"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 18:46:20"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 18:49:03"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 18:49:11"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 18:50:19"}
+{"level":"debug","message":"Socket disconnected: 6a118b9fedbc49b4e72d55d8","timestamp":"2026-05-23 18:51:22"}
+{"level":"debug","message":"Socket disconnected: 6a118ba4edbc49b4e72d55e6","timestamp":"2026-05-23 18:52:46"}
+{"level":"debug","message":"Socket disconnected: 6a118ba4edbc49b4e72d55e6","timestamp":"2026-05-23 18:55:00"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 19:10:08"}
+{"level":"debug","message":"Socket disconnected: 6a118ba4edbc49b4e72d55e6","timestamp":"2026-05-23 19:22:51"}
+{"level":"debug","message":"Socket disconnected: 6a118ba4edbc49b4e72d55e6","timestamp":"2026-05-23 19:23:04"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 19:26:07"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 19:26:45"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 19:26:57"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 19:32:50"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 19:32:50"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 19:32:50"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 19:32:50"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 19:32:50"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 19:32:50"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 19:33:06"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 19:33:06"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 19:33:06"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 19:33:06"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 19:33:06"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 19:33:06"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 19:33:24"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 19:37:46"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 19:37:46"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 19:37:46"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 19:37:46"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 19:37:46"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 19:37:46"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 19:37:46"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 19:45:58"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 19:46:40"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 19:46:42"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 19:47:06"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 19:47:06"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 19:47:33"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 19:47:33"}
+{"level":"debug","message":"Socket disconnected: 6a11b6cab0f773452b6d5795","timestamp":"2026-05-23 19:47:50"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 19:49:38"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 19:53:44"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 19:53:44"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 19:53:44"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 19:53:44"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 19:53:44"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 19:53:44"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 19:55:00"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 19:55:00"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 19:55:00"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 19:55:00"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 19:55:00"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 19:55:00"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 19:57:06"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 19:57:06"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 19:57:06"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 19:57:06"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 19:57:06"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 19:57:06"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 19:59:01"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 19:59:01"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 19:59:01"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 19:59:01"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 19:59:01"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 19:59:01"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 20:06:43"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 20:06:43"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:07:40"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:08:55"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:09:55"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:10:55"}
+{"level":"debug","message":"Socket disconnected: 6a11bc98e1b12226553d641c","timestamp":"2026-05-23 20:11:35"}
+{"level":"debug","message":"Socket disconnected: 6a11bc98e1b12226553d641c","timestamp":"2026-05-23 20:11:40"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 20:11:43"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:11:55"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 20:12:28"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 20:12:28"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 20:12:28"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 20:12:28"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 20:12:28"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 20:12:28"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 20:13:53"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:13:56"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:14:56"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:15:56"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 20:16:54"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 20:16:54"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 20:16:54"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 20:16:54"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 20:16:54"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 20:16:54"}
+{"level":"debug","message":"Socket disconnected: 6a11bc98e1b12226553d641c","timestamp":"2026-05-23 20:17:00"}
+{"level":"debug","message":"Socket disconnected: 6a11bc98e1b12226553d641c","timestamp":"2026-05-23 20:17:07"}
+{"level":"debug","message":"Socket disconnected: 6a11bc98e1b12226553d641c","timestamp":"2026-05-23 20:17:29"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:17:30"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:17:31"}
+{"level":"debug","message":"Socket disconnected: 6a11bc98e1b12226553d641c","timestamp":"2026-05-23 20:18:04"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 20:18:39"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:18:55"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:19:13"}
+{"level":"debug","message":"Socket disconnected: 6a11b60eb0f773452b6d5769","timestamp":"2026-05-23 20:20:36"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 20:21:55"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 20:21:55"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 20:21:55"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 20:21:55"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 20:21:55"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 20:21:55"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 20:23:42"}
+{"level":"warn","message":"OpenAI not configured, using fallback","timestamp":"2026-05-23 20:23:42"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 20:30:29"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 20:30:29"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 20:30:29"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 20:30:29"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 20:30:29"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 20:30:29"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 20:30:50"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 20:30:50"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 20:30:50"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 20:30:50"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 20:30:50"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 20:30:50"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 20:31:18"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 20:31:18"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 20:31:18"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 20:31:18"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 20:31:18"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 20:31:18"}
+{"level":"debug","message":"Socket disconnected: 6a11bf4426284e6ee7d75247","timestamp":"2026-05-23 20:31:49"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 20:31:49"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 20:31:50"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 20:33:53"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 20:33:53"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 20:33:53"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 20:33:53"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 20:33:53"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 20:33:53"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 20:34:16"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 20:34:55"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:34:57"}
+{"level":"debug","message":"Socket disconnected: 6a118b9eedbc49b4e72d55d6","timestamp":"2026-05-23 20:35:01"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 20:37:44"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 20:37:44"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 20:37:44"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 20:37:44"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 20:37:44"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 20:37:44"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 20:41:52"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 20:41:52"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 20:41:52"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 20:41:52"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 20:41:52"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 20:41:52"}
+{"level":"debug","message":"Socket disconnected: 6a11ba44e1b12226553d6391","timestamp":"2026-05-23 20:41:58"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-23 21:58:31"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-23 21:58:31"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-23 21:58:31"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 21:58:31"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 21:58:31"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 21:58:31"}
