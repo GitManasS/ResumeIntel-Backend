@@ -62,6 +62,7 @@ const resumeSchema = new mongoose.Schema(
       enum: ['uploading', 'parsing', 'ready', 'failed'],
       default: 'uploading',
     },
+    parseError: { type: String },
   },
   { timestamps: true }
 );

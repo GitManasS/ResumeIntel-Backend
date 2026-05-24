@@ -1,4 +1,3 @@
-import pdf from 'pdf-parse';
 import Resume from '../models/Resume.js';
 import Analytics from '../models/Analytics.js';
 import { ApiError } from '../utils/ApiError.js';
@@ -7,6 +6,11 @@ import { cloudinary } from '../config/cloudinary.js';
 import { configureCloudinary } from '../config/cloudinary.js';
 import notificationService from './notification.service.js';
 import { emitToUser } from '../websocket/socket.js';
+import {
+  extractTextFromResume,
+  normalizeParsedData,
+  normalizeAtsAnalysis,
+} from '../utils/resumeParse.js';
 import logger from '../utils/logger.js';
 
 const getFileType = (mimetype) => {
@@ -15,22 +19,27 @@ const getFileType = (mimetype) => {
   return 'doc';
 };
 
+async function uploadToCloudinary(buffer) {
+  if (!configureCloudinary()) return { fileUrl: null, filePublicId: null };
+
+  try {
+    const result = await new Promise((resolve, reject) => {
+      const stream = cloudinary.uploader.upload_stream(
+        { folder: 'resumes', resource_type: 'raw' },
+        (err, res) => (err ? reject(err) : resolve(res))
+      );
+      stream.end(buffer);
+    });
+    return { fileUrl: result.secure_url, filePublicId: result.public_id };
+  } catch (err) {
+    logger.warn(`Cloudinary upload skipped: ${err.message}`);
+    return { fileUrl: null, filePublicId: null };
+  }
+}
+
 export const resumeService = {
   async upload(userId, file) {
-    let fileUrl = null;
-    let filePublicId = null;
-
-    if (configureCloudinary()) {
-      const result = await new Promise((resolve, reject) => {
-        const stream = cloudinary.uploader.upload_stream(
-          { folder: 'resumes', resource_type: 'raw' },
-          (err, res) => (err ? reject(err) : resolve(res))
-        );
-        stream.end(file.buffer);
-      });
-      fileUrl = result.secure_url;
-      filePublicId = result.public_id;
-    }
+    const { fileUrl, filePublicId } = await uploadToCloudinary(file.buffer);
 
     const resume = await Resume.create({
       user: userId,
@@ -41,53 +50,64 @@ export const resumeService = {
       status: 'parsing',
     });
 
-    this.parseResumeAsync(resume._id, file.buffer, file.mimetype).catch((err) =>
-      logger.error(`Resume parse failed: ${err.message}`)
+    logger.info(
+      `Resume upload accepted: id=${resume._id} file=${file.originalname} size=${file.size} user=${userId}`
+    );
+
+    const bufferCopy = Buffer.from(file.buffer);
+
+    this.parseResumeAsync(resume._id, bufferCopy, file.mimetype, file.originalname).catch(
+      (err) => logger.error(`Resume parse failed [${resume._id}]: ${err.message}`)
     );
 
     return resume;
   },
 
-  async parseResumeAsync(resumeId, buffer, mimetype) {
+  async parseResumeAsync(resumeId, buffer, mimetype, fileName = '') {
     const resume = await Resume.findById(resumeId);
     if (!resume) return;
 
     try {
-      let text = '';
-      if (mimetype === 'application/pdf') {
-        const data = await pdf(buffer);
-        text = data.text;
-      } else {
-        text = buffer.toString('utf-8').replace(/[^\x20-\x7E\n]/g, ' ');
-      }
+      const text = await extractTextFromResume(buffer, mimetype, fileName);
 
-      const parsedData = await aiService.parseResume(text);
-      parsedData.rawText = text;
+      const parsedRaw = await aiService.parseResume(text);
+      const parsedData = normalizeParsedData(parsedRaw, text);
 
-      const atsAnalysis = await aiService.analyzeATS(text);
-      atsAnalysis.analyzedAt = new Date();
+      const atsRaw = await aiService.analyzeATS(text);
+      const atsAnalysis = normalizeAtsAnalysis(atsRaw);
 
       resume.parsedData = parsedData;
       resume.atsAnalysis = atsAnalysis;
       resume.status = 'ready';
+      resume.parseError = undefined;
       await resume.save();
 
-      await Analytics.create({
-        user: resume.user,
-        type: 'ats_score',
-        value: atsAnalysis.score,
-        label: resume.title,
-        metadata: { resumeId: resume._id },
-      });
+      try {
+        await Analytics.create({
+          user: resume.user,
+          type: 'ats_score',
+          value: atsAnalysis.score,
+          label: resume.title,
+          metadata: { resumeId: resume._id },
+        });
+      } catch (err) {
+        logger.warn(`Analytics skip: ${err.message}`);
+      }
 
-      await notificationService.create({
-        user: resume.user,
-        type: 'resume_analysis_complete',
-        title: 'Resume Analysis Complete',
-        message: `Your resume scored ${atsAnalysis.score}% ATS compatibility.`,
-        link: `/candidate/resumes/${resume._id}`,
-        metadata: { resumeId: resume._id },
-      });
+      try {
+        await notificationService.create({
+          user: resume.user,
+          type: 'resume_analysis_complete',
+          title: 'Resume Analysis Complete',
+          message: `Your resume scored ${atsAnalysis.score}% ATS compatibility.`,
+          link: `/candidate/resumes`,
+          metadata: { resumeId: resume._id },
+        });
+      } catch (err) {
+        logger.warn(`Notification skip: ${err.message}`);
+      }
+
+      logger.info(`Resume parse complete: id=${resume._id} score=${atsAnalysis.score}`);
 
       emitToUser(resume.user.toString(), 'resume:ready', {
         resumeId: resume._id,
@@ -95,12 +115,14 @@ export const resumeService = {
         score: atsAnalysis.score,
       });
     } catch (error) {
+      logger.error(`Resume parse failed id=${resumeId}: ${error.message}`, { stack: error.stack });
       resume.status = 'failed';
+      resume.parseError = error.message?.slice(0, 500) || 'Analysis failed';
       await resume.save();
       emitToUser(resume.user.toString(), 'resume:failed', {
         resumeId: resume._id,
         status: 'failed',
-        message: error.message,
+        message: resume.parseError,
       });
       throw error;
     }
@@ -124,7 +146,11 @@ export const resumeService = {
     const resume = await Resume.findOneAndDelete({ _id: resumeId, user: userId });
     if (!resume) throw ApiError.notFound('Resume not found');
     if (resume.filePublicId && configureCloudinary()) {
-      await cloudinary.uploader.destroy(resume.filePublicId, { resource_type: 'raw' });
+      try {
+        await cloudinary.uploader.destroy(resume.filePublicId, { resource_type: 'raw' });
+      } catch (err) {
+        logger.warn(`Cloudinary delete failed: ${err.message}`);
+      }
     }
     return resume;
   },
@@ -144,17 +170,20 @@ export const resumeService = {
     const resume = await this.getById(resumeId, userId);
     if (!resume.parsedData?.rawText) throw ApiError.badRequest('Resume not parsed yet');
 
-    const atsAnalysis = await aiService.analyzeATS(resume.parsedData.rawText, targetRole);
-    atsAnalysis.analyzedAt = new Date();
-    resume.atsAnalysis = atsAnalysis;
+    const atsRaw = await aiService.analyzeATS(resume.parsedData.rawText, targetRole);
+    resume.atsAnalysis = normalizeAtsAnalysis(atsRaw);
     await resume.save();
 
-    await Analytics.create({
-      user: userId,
-      type: 'ats_score',
-      value: atsAnalysis.score,
-      metadata: { resumeId },
-    });
+    try {
+      await Analytics.create({
+        user: userId,
+        type: 'ats_score',
+        value: resume.atsAnalysis.score,
+        metadata: { resumeId },
+      });
+    } catch (err) {
+      logger.warn(`Analytics skip: ${err.message}`);
+    }
 
     return resume;
   },

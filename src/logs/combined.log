@@ -407,3 +407,9 @@
 {"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-23 21:58:31"}
 {"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-23 21:58:31"}
 {"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-23 21:58:31"}
+{"level":"info","message":"MongoDB connected: localhost","timestamp":"2026-05-25 00:29:00"}
+{"level":"info","message":"Redis disabled (REDIS_ENABLED=false). Background jobs run inline.","timestamp":"2026-05-25 00:29:00"}
+{"level":"info","message":"Socket.io initialized","timestamp":"2026-05-25 00:29:00"}
+{"level":"info","message":"Hiring OS API running on port 5000 [development]","timestamp":"2026-05-25 00:29:00"}
+{"level":"info","message":"API docs: http://localhost:5000/api/docs","timestamp":"2026-05-25 00:29:00"}
+{"level":"info","message":"WebSocket: ws://localhost:5000/socket.io","timestamp":"2026-05-25 00:29:00"}
