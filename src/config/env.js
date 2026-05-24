@@ -2,6 +2,28 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+/** Normalize origin for CORS (must include protocol, no trailing slash). */
+export function normalizeOrigin(url) {
+  if (!url || typeof url !== 'string') return null;
+  let origin = url.trim().replace(/\/+$/, '');
+  if (!origin) return null;
+  if (!/^https?:\/\//i.test(origin)) {
+    origin = `https://${origin}`;
+  }
+  return origin;
+}
+
+/** CLIENT_URL may be comma-separated: https://app.netlify.app,https://preview.netlify.app */
+export function parseClientOrigins(raw) {
+  const fallback = 'http://localhost:5173';
+  const source = raw || fallback;
+  const origins = source
+    .split(',')
+    .map((part) => normalizeOrigin(part))
+    .filter(Boolean);
+  return origins.length ? origins : [normalizeOrigin(fallback)];
+}
+
 const required = ['MONGODB_URI', 'JWT_SECRET', 'JWT_REFRESH_SECRET'];
 
 if (process.env.NODE_ENV === 'production') {
@@ -38,7 +60,8 @@ export const env = {
     pass: process.env.SMTP_PASS,
     from: process.env.EMAIL_FROM || 'noreply@resumeintel.com',
   },
-  clientUrl: process.env.CLIENT_URL || 'http://localhost:5173',
+  clientOrigins: parseClientOrigins(process.env.CLIENT_URL),
+  clientUrl: parseClientOrigins(process.env.CLIENT_URL)[0],
   rateLimit: {
     windowMs: parseInt(process.env.RATE_LIMIT_WINDOW_MS, 10) || 900000,
     max: parseInt(process.env.RATE_LIMIT_MAX, 10) || 100,

@@ -19,7 +19,18 @@ app.set('trust proxy', 1);
 app.use(helmet());
 app.use(
   cors({
-    origin: env.clientUrl,
+    origin(origin, callback) {
+      // Server-to-server or same-origin tools (no Origin header)
+      if (!origin) {
+        callback(null, true);
+        return;
+      }
+      if (env.clientOrigins.includes(origin)) {
+        callback(null, true);
+        return;
+      }
+      callback(new Error(`CORS blocked for origin: ${origin}`));
+    },
     credentials: true,
   })
 );

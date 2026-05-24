@@ -6,6 +6,7 @@ import { aiService } from '../ai/ai.service.js';
 import { cloudinary } from '../config/cloudinary.js';
 import { configureCloudinary } from '../config/cloudinary.js';
 import notificationService from './notification.service.js';
+import { emitToUser } from '../websocket/socket.js';
 import logger from '../utils/logger.js';
 
 const getFileType = (mimetype) => {
@@ -87,9 +88,20 @@ export const resumeService = {
         link: `/candidate/resumes/${resume._id}`,
         metadata: { resumeId: resume._id },
       });
+
+      emitToUser(resume.user.toString(), 'resume:ready', {
+        resumeId: resume._id,
+        status: 'ready',
+        score: atsAnalysis.score,
+      });
     } catch (error) {
       resume.status = 'failed';
       await resume.save();
+      emitToUser(resume.user.toString(), 'resume:failed', {
+        resumeId: resume._id,
+        status: 'failed',
+        message: error.message,
+      });
       throw error;
     }
   },
